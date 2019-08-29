@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.3.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "styled-components": "^4.3.2"
@@ -11,9 +12,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^5.1.11",
+    "@storybook/addon-links": "^5.1.11",
+    "@storybook/addons": "^5.1.11",
+    "@storybook/react": "^5.1.11",
     "@types/eslint": "^6.1.1",
     "@types/eslint-plugin-prettier": "^2.2.0",
     "@types/jest": "^24.0.18",
@@ -21,6 +28,8 @@
     "@types/prettier": "^1.18.2",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
+    "@types/storybook__addon-actions": "^3.4.3",
+    "@types/storybook__react": "^4.0.2",
     "@types/styled-components": "^4.1.18",
     "@types/typescript": "^2.0.0",
     "eslint": "^6.2.2",
