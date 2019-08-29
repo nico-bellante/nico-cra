@@ -1785,7 +1785,27 @@
   resolved "https://registry.yarnpkg.com/@types/storybook__addon-actions/-/storybook__addon-actions-3.4.3.tgz#bb0c3fd066e1f495d3f2b724487e2b99194b3f1a"
   integrity sha512-RSFFfruUHL7La4CZpuiKZ0mZvr5orjenFA2jc31tfPwvA3fYNH4/9XSfA2MB08IpJbF3aErtYWT5Dtigkxnltg==
 
-"@types/storybook__react@^4.0.2":
+"@types/storybook__addon-links@^3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-links/-/storybook__addon-links-3.3.5.tgz#38326426b3a83a237123bce0d348d9159451710f"
+  integrity sha512-h+8Kb+uZv4/uuWD+K5rku8aRxdl6yjDJrFzbcGwwdZt6IwYGK9G8PmkP+6Hv+N7HMOuyhrZPiLL//qVFWDL/0Q==
+  dependencies:
+    "@types/react" "*"
+
+"@types/storybook__addons@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addons/-/storybook__addons-4.1.1.tgz#ef77cb58cb7a67425b7df5dc19462617720e7048"
+  integrity sha512-7CA65omXQNUhIv79jLMvbwM1+4cpGVZc+Kbr9w3H1fqjQEFYCa9DUGWluPDa071CKirn9we5e0bGwiFZ68hC1Q==
+  dependencies:
+    "@types/storybook__channels" "*"
+    "@types/storybook__react" "*"
+
+"@types/storybook__channels@*":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__channels/-/storybook__channels-4.1.1.tgz#66e49f4a0ef44a8af057df182a1d9299ededf87a"
+  integrity sha512-Yg7KR90c9YuES96LCQ4YEcs/L4PSkZsG3ICa1IGggxrX3kRameGLD/ZoYH84mewp4QeHyvomUWGflfJSmR+bmg==
+
+"@types/storybook__react@*", "@types/storybook__react@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@types/storybook__react/-/storybook__react-4.0.2.tgz#f36fb399574c662e79c1a0cf6e429b6ff730da40"
   integrity sha512-U/+J5qccRdKFryvHkk1a0IeZaSIZLCmTwAQhTSDGeC3SPNIYPus+EtunBqP49r870l8czbfxtjeC3IL9P66ngQ==
